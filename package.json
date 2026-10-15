@@ -2,7 +2,7 @@
   "name": "drivesmart-nj-web",
   "private": true,
   "version": "1.0.0",
-  "description": "Marketing site for DriveSmart NJ — unofficial study buddy for the NJ driver knowledge test.",
+  "description": "Marketing site for DriveSmart NJ, unofficial study buddy for the NJ driver knowledge test.",
   "type": "module",
   "scripts": {
     "dev": "vite",
