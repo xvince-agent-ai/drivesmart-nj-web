@@ -17,11 +17,17 @@ npm run build
 npm run preview      # production demo locally: http://localhost:4173
 ```
 
-Push to `main` and GitHub Pages publishes the production demo at:
+Push to `main`, then in GitHub: **Settings → Pages → Deploy from a branch → `main` / `/docs`**.
 
-`https://rvincent22.github.io/drivesmart-nj-web/`
+Production demo:
 
-Enable **Settings → Pages → GitHub Actions** on the repo the first time.
+`https://xvince-agent-ai.github.io/drivesmart-nj-web/`
+
+Rebuild the Pages folder after site edits:
+
+```bash
+npm run build:pages
+```
 
 ## Legal
 

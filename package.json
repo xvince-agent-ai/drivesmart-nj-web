@@ -7,7 +7,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview --host --port 4173"
+    "preview": "vite preview --host --port 4173",
+    "build:pages": "GITHUB_PAGES=true vite build && rm -rf docs && mkdir docs && cp -R dist/. docs/ && touch docs/.nojekyll"
   },
   "devDependencies": {
     "vite": "^6.3.5"
