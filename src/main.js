@@ -1,6 +1,6 @@
 import { injectSpeedInsights } from '@vercel/speed-insights';
 
-injectSpeedInsights();
+injectSpeedInsights({ framework: 'vite' });
 
 const toggle = document.querySelector('.nav-toggle');
 const links = document.querySelector('#nav-links');
