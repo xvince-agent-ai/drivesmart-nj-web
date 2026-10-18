@@ -1,3 +1,7 @@
+import { injectSpeedInsights } from '@vercel/speed-insights';
+
+injectSpeedInsights();
+
 const toggle = document.querySelector('.nav-toggle');
 const links = document.querySelector('#nav-links');
 
