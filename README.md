@@ -17,9 +17,11 @@ npm run build
 npm run preview      # production demo locally: http://localhost:4173
 ```
 
+Import this repo in Vercel (Framework Preset: Vite, Output: `dist`). `npm run build` uses site root `/`, which is what Vercel needs.
+
 Push to `main`, then in GitHub: **Settings → Pages → Deploy from a branch → `main` / `/docs`**.
 
-Production demo:
+GitHub Pages demo:
 
 `https://xvince-agent-ai.github.io/drivesmart-nj-web/`
 
