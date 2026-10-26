@@ -228,6 +228,32 @@ p {
   border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
+.demo {
+  padding-top: 48px;
+}
+
+.demo-frame {
+  margin: 0;
+  border-radius: var(--radius);
+  overflow: hidden;
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+  background: #000;
+}
+
+.demo-frame video {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  background: #000;
+}
+
+.btn-soon {
+  pointer-events: none;
+  cursor: default;
+}
+
 .strip {
   display: flex;
   gap: 28px;
