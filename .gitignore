@@ -5,3 +5,6 @@ dist
 .env
 .env.*
 .vercel
+tools/kokoro/models/
+tools/kokoro/venv/
+tools/kokoro/out/

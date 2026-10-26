@@ -35,6 +35,10 @@ Rebuild the Pages folder after site edits:
 npm run build:pages
 ```
 
+## Demo narration (Kokoro)
+
+To change the demo voiceover later, edit `tools/kokoro/narrate.py` and follow `tools/kokoro/README.md`. The ONNX models stay local and are not committed.
+
 ## Legal
 
 - Support: support@drivesmartnj.com
