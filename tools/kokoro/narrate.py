@@ -28,7 +28,7 @@ LINES = {
     "s3": "Feeling ready? Take a full, timed, fifty-question mock test. Flag the tricky ones, skip ahead, and review it all before you submit.",
     "s4": "Stuck on a rule? Just ask the AI tutor. It's built around the New Jersey Driver Manual.",
     "s5": "And study the whole manual, chapter by chapter. Even offline!",
-    "outro": "DriveSmart NJ. Your permit test is the next exit. Coming soon to iPhone!",
+    "outro": "DriveSmart NJ. Your permit test is the next exit. Available now on the App Store!",
 }
 
 cfg = EspeakConfig(

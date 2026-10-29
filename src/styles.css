@@ -249,9 +249,28 @@ p {
   background: #000;
 }
 
-.btn-soon {
-  pointer-events: none;
-  cursor: default;
+.store-qr {
+  margin: 0;
+  padding: 14px;
+  background: #fff;
+  border-radius: 20px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.store-qr img {
+  width: 168px;
+  height: 168px;
+  border-radius: 0;
+}
+
+.store-qr figcaption {
+  margin-top: 8px;
+  color: #0f172a;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
 }
 
 .strip {
